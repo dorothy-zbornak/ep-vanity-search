@@ -2,7 +2,7 @@ require('colors');
 const crypto = require('crypto');
 const ethjs = require('ethereumjs-util');
 
-const TARGET_PREFIX = '0xdef1beef';
+const TARGET_PREFIX = '0xdef1c0de250';
 
 while (true) {
     const key = crypto.randomBytes(32);
